@@ -16,4 +16,4 @@ Este é um projeto de um **Jogo da Memória** desenvolvida utilizando **HTML**, 
 
 ## 🌐 Acesse Aqui
 
-Você pode acessar o jogo diretamente através deste [link](https://marcellofigueiredo.github.io/championsleague-memorygame/). Basta clicar e jogar!
+Você pode acessar o jogo diretamente através deste [link](https://marcellofigueiredo.github.io/Champions-League-Memory-Game/). Basta clicar e jogar!
