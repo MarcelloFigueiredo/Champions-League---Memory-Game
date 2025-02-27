@@ -1,0 +1,80 @@
+/* Adiciona a imagem de fundo ao body */
+body {
+    background-image: url('../images/fundo.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede repetição da imagem */
+    margin: 0; /* Remove margens padrão do body */
+    font-family: Arial, sans-serif; /* Definir a fonte */
+}
+
+/* Estilos para o formulário de login */
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Faz o formulário ocupar a altura total da tela */
+    justify-content: center; /* Centraliza o formulário verticalmente */
+    z-index: 1; /* Garante que o formulário fique sobre a imagem de fundo */
+    position: relative; /* Necessário para o z-index funcionar */
+}
+
+/* Estilos do cabeçalho do login */
+.login__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login__header img {
+    width: 250px; /* Define o tamanho da logo */
+}
+
+.login__header h1 {
+    color: #fff; /* Cor do título */
+    font-size: 2em; /* Tamanho da fonte */
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Estilos dos campos de input */
+.login__input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+/* Estilos do botão */
+.login__button {
+    background-color: #1c1aa8;
+    border: 3px solid #181152;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover no botão */
+.login__button:hover {
+    background-color: #16109b;
+}
+
+/* Estilos para o botão quando desabilitado */
+.login__button:disabled {
+    background-color: #eee;
+    border: 2px solid #969595;
+    color: #aaa;
+    cursor: auto;
+}
