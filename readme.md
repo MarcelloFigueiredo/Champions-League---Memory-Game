@@ -1,7 +1,5 @@
 # Champions League - Memory Game🧠
 
-![Imagem de Capa do Jogo](../Memory%20Game/images/capa.png)
-
 Este é um projeto de um **Jogo da Memória** desenvolvida utilizando **HTML**, **CSS** e **JavaScript**. O objetivo é encontrar os pares iguais de cartas ou peças. 🃏💡 Você vira as cartas e tenta lembrar onde estão os pares. 🧠 Quem achar mais pares, ganha! 🎉
 
 ## 🚀 Tecnologias Utilizadas
